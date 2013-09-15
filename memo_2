@@ -1,0 +1,26 @@
+Memo 2, 9.9.2013, Kolme Kaisaa, "Kurvi 3"
+
+Paikalla: Juha, Topi, Mert, Timo, Laura
+Poissa: Mika
+
+1. Työnimi Porottaa - Terassisovellus ja domain www.porottaa.com. Jälkikommentti: voitteko Juha hommata tuon domainin?
+
+2. Leiska kommentoitavaksi viim. ti 17.9.. Mert tekee leiskaan muutoksia: uudet fontit ja taustaväri uusi. Esitys, miten moduulit asettuu eri koissa (2-3 kokoa).
+
+3. GIS: Rakennusvirastolta saatu (ja avattu avoimeksi HRI) pisteaineisto terasseista. 
+
+4. Löytyi kilpaileva viristys terdelle.com (beta julk. 6/2013), jonka tavasta toteuttaa otetaan oppia. Ilmeisesti toteutettu Google Earthin avulla.
+
+5. Käytetään MapBoxia, jossa simppeliä/kevyttä LeafLet.js-kirjastoa. LeafLetissä ratkaisu GeoJSON-pisteiden sisällyttämiseen. 
+
+6. GIS: Mietitään 3D-mallin muodostusta vektorimuotoiseksi (täytyy selvittää onnistuisiko rasterimuotoinen). 
+
+7. GIS: Nämä työkalut selvitetään: Sun-shadow-volume (3D Analyst), Solar radiation (Spatial Analyst), tässä oli laskettu auringon säde zeniitti & z merenpinnasta. 
+
+8. Koodi: Käytetään Bootstrapper-nimistä ikonifonttia esim. leiskalla olleeseen info-merkkiin.
+
+9. Terassilista muuttuu vasta, kun hakukenttää käytetään. (Priorisointilistalla nro 103: terassilista muuttuisi hiirtä kartalla klikkaamalla. Tähän tarvitsisi luoda valmis aineisto, ettei Amazonin palvelimella tarvitse tätä laskea työkalulla, vaan että tieto on jo napattavissa xy-koordinaattien perusteella.)
+
+10. Tooltip (karttavinkki), klikkauksella esiin tulee nimi, osoite, ehkä kuva.
+
+11. GitHubissa tapahtuu kehitystyö, mutta luon kuvagallerian jonnekin muualle.
